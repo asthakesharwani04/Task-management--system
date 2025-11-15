@@ -1,0 +1,43 @@
+/* reuse same styles as Login; minor differences allowed */
+.auth-card {
+  width: 420px;
+}
+.success {
+  background: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.alert {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--danger);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.form {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.form input {
+  background: var(--glass);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+}
+.form-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 8px;
+}
+.btn.primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+}

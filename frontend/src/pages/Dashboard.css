@@ -1,0 +1,59 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.dashboard-header h1 {
+  margin: 0;
+}
+.new-task-card {
+  margin: 10px 0;
+  padding: 12px;
+}
+.new-task-form {
+  display: flex;
+  gap: 8px;
+}
+.new-task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: transparent;
+  color: var(--text);
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.alert {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--danger);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.empty {
+  color: var(--muted);
+  padding: 18px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn.primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
